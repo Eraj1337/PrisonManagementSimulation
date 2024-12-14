@@ -8,47 +8,47 @@
 
 <AnchorPane fx:id="securitymanagerpage" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagementsoftaware.DashboardSecurity">
    <children>
-      <Button fx:id="safetyandsecuritylabel" layoutX="69.0" layoutY="135.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="180.0" text="Safety &amp; Security">
+      <Button layoutX="69.0" layoutY="135.0" mnemonicParsing="false" onAction="#safetyandsecuritylabel" prefHeight="30.0" prefWidth="180.0" text="Safety &amp; Security">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button fx:id="inmatemovementslabel" layoutX="69.0" layoutY="192.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="180.0" text="Inmate Movements">
+      <Button layoutX="69.0" layoutY="192.0" mnemonicParsing="false" onAction="#inmatemovementslabel" prefHeight="25.0" prefWidth="180.0" text="Inmate Movements">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button fx:id="securitydrillsandtraininglabel" layoutX="69.0" layoutY="245.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="180.0" text="Security Drills &amp; Training">
+      <Button layoutX="69.0" layoutY="245.0" mnemonicParsing="false" onAction="#securitydrillsandtraininglabel" prefHeight="25.0" prefWidth="180.0" text="Security Drills &amp; Training">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button fx:id="securityequipmentslabel" layoutX="69.0" layoutY="299.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="180.0" text="Security Equipments">
+      <Button layoutX="69.0" layoutY="299.0" mnemonicParsing="false" onAction="#securityequipmentslabel" prefHeight="25.0" prefWidth="180.0" text="Security Equipments">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button fx:id="responseissuelabel" layoutX="357.0" layoutY="135.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="180.0" text="Response Issue">
+      <Button layoutX="357.0" layoutY="135.0" mnemonicParsing="false" onAction="#responseissuelabel" prefHeight="30.0" prefWidth="180.0" text="Response Issue">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button fx:id="externernalcoordinationlabel" layoutX="357.0" layoutY="192.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="180.0" text="Exnernel Coordination">
+      <Button layoutX="357.0" layoutY="192.0" mnemonicParsing="false" onAction="#externernalcoordinationlabel" prefHeight="30.0" prefWidth="180.0" text="Exnernel Coordination">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button fx:id="securitypolicieslabel" layoutX="357.0" layoutY="245.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="180.0" text="Security Policies">
+      <Button layoutX="357.0" layoutY="245.0" mnemonicParsing="false" onAction="#securitypolicieslabel" prefHeight="30.0" prefWidth="180.0" text="Security Policies">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button fx:id="reportsandanalyticslabel" layoutX="357.0" layoutY="299.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="180.0" text="Reports &amp; Analytics">
+      <Button layoutX="357.0" layoutY="299.0" mnemonicParsing="false" onAction="#reportsandanalyticslabel" prefHeight="30.0" prefWidth="180.0" text="Reports &amp; Analytics">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button fx:id="securitybacklabel" layoutX="528.0" layoutY="354.0" mnemonicParsing="false" text="Back" />
+      <Button layoutX="528.0" layoutY="354.0" mnemonicParsing="false" onAction="#securitybacklabel" text="Back" />
       <Label fx:id="securitymanagerwelcomelabel" layoutX="149.0" layoutY="33.0" text="Welcome, Security Manager!">
          <font>
             <Font size="24.0" />

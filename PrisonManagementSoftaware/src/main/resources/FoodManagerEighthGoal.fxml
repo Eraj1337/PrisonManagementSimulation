@@ -10,7 +10,7 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="fmeightpage" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FoodManagerEighthGoal">
+<AnchorPane fx:id="fmeightpage" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagementsoftaware.FoodManagerEighthGoal">
    <children>
       <Label fx:id="fmeighttitle" layoutX="154.0" layoutY="37.0" text="Special Dietary Requirements">
          <font>

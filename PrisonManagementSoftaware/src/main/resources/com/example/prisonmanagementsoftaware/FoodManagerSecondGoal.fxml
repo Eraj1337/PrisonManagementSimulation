@@ -46,7 +46,7 @@
             <Font size="14.0" />
          </font>
       </Button>
-      <Button fx:id="fmtwobackbutton" layoutX="470.0" layoutY="320.0" mnemonicParsing="false" text="Back">
+      <Button layoutX="470.0" layoutY="320.0" mnemonicParsing="false" onAction="#fmtwobackbutton" text="Back">
          <font>
             <Font size="14.0" />
          </font>

@@ -10,7 +10,7 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="fmsevenpage" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FoodManagerSeventhGoal">
+<AnchorPane fx:id="fmsevenpage" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagementsoftaware.FoodManagerSixthGoal">
    <children>
       <Label fx:id="fmseventitle" layoutX="193.0" layoutY="44.0" text="Waste Management">
          <font>
@@ -58,7 +58,7 @@
             <Font size="14.0" />
          </font>
       </Button>
-      <Button fx:id="fmsevenbackbutton" layoutX="496.0" layoutY="319.0" mnemonicParsing="false" text="Back">
+      <Button layoutX="496.0" layoutY="319.0" mnemonicParsing="false" onAction="#fmsevenbackbutton" text="Back">
          <font>
             <Font size="14.0" />
          </font>

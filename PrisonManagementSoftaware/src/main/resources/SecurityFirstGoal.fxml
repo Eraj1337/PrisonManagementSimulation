@@ -9,7 +9,7 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="smonepage" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SecurityFirstGoal">
+<AnchorPane fx:id="smonepage" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagementsoftaware.SecurityFirstGoal">
    <children>
       <Label fx:id="smonetitle" alignment="CENTER" layoutX="126.0" layoutY="37.0" text="Safety &amp; Security of Inmates">
          <font>

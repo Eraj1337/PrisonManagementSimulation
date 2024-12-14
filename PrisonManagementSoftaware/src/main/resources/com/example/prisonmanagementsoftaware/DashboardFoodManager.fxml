@@ -13,42 +13,42 @@
             <Font size="14.0" />
          </font>
       </Button>
-      <Button fx:id="costmanagementlabel" layoutX="75.0" layoutY="194.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="155.0" text="Cost Management">
+      <Button layoutX="75.0" layoutY="194.0" mnemonicParsing="false" onAction="#costmanagementlabel" prefHeight="30.0" prefWidth="155.0" text="Cost Management">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button fx:id="meldistributionlabel" layoutX="75.0" layoutY="241.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="155.0" text="Meal Distribuition">
+      <Button layoutX="75.0" layoutY="241.0" mnemonicParsing="false" onAction="#meldistributionlabel" prefHeight="30.0" prefWidth="155.0" text="Meal Distribuition">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button fx:id="suppliermanagementlabel" layoutX="75.0" layoutY="293.0" mnemonicParsing="false" text="Supplier Management">
+      <Button layoutX="75.0" layoutY="293.0" mnemonicParsing="false" onAction="#suppliermanagementlabel" text="Supplier Management">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button fx:id="nutritionalanalysislabel" layoutX="370.0" layoutY="141.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="163.0" text="Nutritional Analysis">
+      <Button layoutX="370.0" layoutY="141.0" mnemonicParsing="false" onAction="#nutritionalanalysislabel" prefHeight="30.0" prefWidth="163.0" text="Nutritional Analysis">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button fx:id="inventorymanagementlabel" layoutX="370.0" layoutY="194.0" mnemonicParsing="false" text="Inventory Management">
+      <Button layoutX="370.0" layoutY="194.0" mnemonicParsing="false" onAction="#inventorymanagementlabel" text="Inventory Management">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button fx:id="wastemanagementlabel" layoutX="368.0" layoutY="241.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="163.0" text="Waste Management">
+      <Button layoutX="368.0" layoutY="241.0" mnemonicParsing="false" onAction="#wastemanagementlabel" prefHeight="30.0" prefWidth="163.0" text="Waste Management">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button fx:id="specialdietlabel" layoutX="370.0" layoutY="293.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="163.0" text="Special Diet">
+      <Button layoutX="370.0" layoutY="293.0" mnemonicParsing="false" onAction="#specialdietlabel" prefHeight="30.0" prefWidth="163.0" text="Special Diet">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button fx:id="foodmanagerbacklabel" layoutX="533.0" layoutY="361.0" mnemonicParsing="false" text="Back" />
+      <Button layoutX="533.0" layoutY="361.0" mnemonicParsing="false" onAction="#foodmanagerbacklabel" text="Back" />
       <Label fx:id="foodmanagerwelcomelabel" layoutX="164.0" layoutY="44.0" text="Welcome, Food Manager!">
          <font>
             <Font size="24.0" />
