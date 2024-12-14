@@ -6,7 +6,7 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="foodmanagerpage" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagementsoftaware.DashboardFoodManager">
+<AnchorPane fx:id="foodmanagerpage" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagementsoftaware.DashboardFoodManager">
    <children>
       <Button layoutX="75.0" layoutY="141.0" mnemonicParsing="false" onAction="#mealplanninglabel" prefHeight="30.0" prefWidth="155.0" text="Meal Planning">
          <font>
