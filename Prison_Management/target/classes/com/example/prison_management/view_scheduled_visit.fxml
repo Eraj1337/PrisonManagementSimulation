@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="530.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prison_management.ViewScheduledVisits">
+   <children>
+      <TableView fx:id="SchedulenfoTableview" layoutX="4.0" layoutY="102.0" prefHeight="325.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="visitorinfocolumn" prefWidth="187.20001828670502" text="Visitor Name" />
+          <TableColumn fx:id="timeinfocolumn" prefWidth="237.5999755859375" text="Time" />
+            <TableColumn fx:id="dateinfocolumn" prefWidth="175.19992065429688" text="Date" />
+        </columns>
+      </TableView>
+      <Button layoutX="507.0" layoutY="452.0" mnemonicParsing="false" onAction="#backButton" text="Back" />
+      <Label layoutX="217.0" layoutY="24.0" style="-fx-font-size: 24px; -fx-font-weight: bold;" text="View Schedule" />
+   </children>
+</AnchorPane>
