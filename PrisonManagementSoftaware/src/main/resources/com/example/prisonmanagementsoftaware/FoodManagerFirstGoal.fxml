@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rmonepage" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagementsoftaware.FoodManagerFirstGoal">
+   <children>
+      <Label fx:id="rmonetitle" layoutX="181.0" layoutY="44.0" text="Regular Meal Planning">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Line endX="499.0" layoutX="101.0" layoutY="98.0" startX="-100.0" />
+      <Label fx:id="rmonebreakfastlabel" layoutX="86.0" layoutY="190.0" text="Breakfast:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="rmonelunchlabel" layoutX="88.0" layoutY="256.0" text="Lunch:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="rmonedinnerlabel" layoutX="86.0" layoutY="325.0" text="Dinner:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="rmonedatelabel" layoutX="86.0" layoutY="132.0" text="Date:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="rmonedateinput" layoutX="174.0" layoutY="130.0" prefHeight="25.0" prefWidth="183.0" />
+      <TextArea fx:id="rmonebreakfastinput" layoutX="174.0" layoutY="180.0" prefHeight="47.0" prefWidth="183.0" />
+      <TextArea fx:id="rmonelunchinput" layoutX="175.0" layoutY="246.0" prefHeight="47.0" prefWidth="183.0" />
+      <TextArea fx:id="rmonedinnerinput" layoutX="177.0" layoutY="317.0" prefHeight="47.0" prefWidth="183.0" />
+      <Button layoutX="432.0" layoutY="268.0" mnemonicParsing="false" onAction="#rmonesubmitbutton" prefHeight="35.0" prefWidth="131.0" text="Submit Meal Plan">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="432.0" layoutY="328.0" mnemonicParsing="false" onAction="#rmonebackbutton" text="Back">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

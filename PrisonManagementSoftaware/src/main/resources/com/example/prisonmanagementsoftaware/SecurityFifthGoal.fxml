@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="smfivepage" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagementsoftaware.SecurityFifthGoal">
+   <children>
+      <Label fx:id="smfivetitle" layoutX="161.0" layoutY="40.0" text="Manage Security Incidents">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Line endX="492.0" layoutX="108.0" layoutY="92.0" startX="-108.0" />
+      <Label layoutX="221.0" layoutY="106.0" text="Current Security Incidents">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="121.0" layoutY="139.0" text="Incident Details:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="smfivetypelabel" layoutX="122.0" layoutY="180.0" text="Type:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="smfivelocationlabel" layoutX="121.0" layoutY="227.0" text="Location:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="smfivetimelabel" layoutX="122.0" layoutY="273.0" text="Time:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="smfiveinmatesinvolvedlabel" layoutX="123.0" layoutY="321.0" text="Inmates Involved:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="smfivetypeinput" layoutX="261.0" layoutY="178.0" />
+      <TextField fx:id="smfivelocationinput" layoutX="261.0" layoutY="225.0" />
+      <TextField layoutX="261.0" layoutY="271.0" />
+      <TextField fx:id="smfiveinmatesinvolvedinput" layoutX="261.0" layoutY="319.0" />
+      <Button layoutX="261.0" layoutY="356.0" mnemonicParsing="false" onAction="#smfiveassignstaffbutton" text="Assign Staff">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="486.0" layoutY="359.0" mnemonicParsing="false" onAction="#smfivebackbutton" text="Back">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

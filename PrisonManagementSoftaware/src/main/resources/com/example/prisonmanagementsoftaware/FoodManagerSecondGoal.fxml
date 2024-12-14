@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="fmtwopage" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagementsoftaware.FoodManagerSecondGoal">
+   <children>
+      <Label fx:id="fmtwotitle" layoutX="203.0" layoutY="41.0" text="Cost Management">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Line endX="499.0" layoutX="101.0" layoutY="99.0" startX="-100.0" />
+      <Label fx:id="fmtwodatelabel" layoutX="64.0" layoutY="146.0" text="Date:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="fmtwoamountlabel" layoutX="64.0" layoutY="193.0" text="Amount:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="fmtwocategorylabel" layoutX="64.0" layoutY="239.0" text="Category:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="fmtwodescriptionlabel" layoutX="64.0" layoutY="284.0" text="Description:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="fmtwodateinput" layoutX="196.0" layoutY="144.0" />
+      <TextField fx:id="fmtwoamountinput" layoutX="196.0" layoutY="188.0" prefHeight="25.0" prefWidth="174.0" />
+      <TextField fx:id="fmtwocategoryinput" layoutX="196.0" layoutY="237.0" prefHeight="25.0" prefWidth="174.0" />
+      <TextArea fx:id="fmtwodescriptioninput" layoutX="196.0" layoutY="285.0" prefHeight="69.0" prefWidth="174.0" />
+      <Button layoutX="443.0" layoutY="270.0" mnemonicParsing="false" onAction="#fmtwosubmitbutton" prefHeight="25.0" prefWidth="101.0" text="Submit">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="fmtwobackbutton" layoutX="470.0" layoutY="320.0" mnemonicParsing="false" text="Back">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

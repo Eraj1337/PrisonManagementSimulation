@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="fmthreepage" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagementsoftaware.FoodManagerThirdGoal">
+   <children>
+      <Label fx:id="fmthreetitle" layoutX="205.0" layoutY="34.0" text="Meal Distribution">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Line endX="499.0" layoutX="101.0" layoutY="94.0" startX="-100.0" />
+      <Label fx:id="fmthreebcountlabel" layoutX="76.0" layoutY="148.0" text="Breakfast Meal Count:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="fmthreelcountlabel" layoutX="76.0" layoutY="200.0" text="Lunch Meal Count:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="fmthreedcountlabel" layoutX="76.0" layoutY="251.0" text="Dinner Meal Count:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="fmthreetcountlabel" layoutX="76.0" layoutY="302.0" text="Total Meal Count:" />
+      <TextField fx:id="fmthreebcountinput" layoutX="258.0" layoutY="146.0" />
+      <TextField fx:id="fmthreelcountinput" layoutX="258.0" layoutY="198.0" />
+      <TextField fx:id="fmthreedcountinput" layoutX="258.0" layoutY="249.0" />
+      <TextField fx:id="fmthreetcountinput" layoutX="258.0" layoutY="298.0" />
+      <Button layoutX="258.0" layoutY="346.0" mnemonicParsing="false" onAction="#fmthreesubmitbutton" prefHeight="30.0" prefWidth="149.0" text="Submit Meal Count">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="fmthreebackbutton" layoutX="488.0" layoutY="349.0" mnemonicParsing="false" onAction="#fmthreebackbutton" text="Back">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

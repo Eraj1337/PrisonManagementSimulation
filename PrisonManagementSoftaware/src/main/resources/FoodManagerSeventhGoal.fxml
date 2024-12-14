@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="fmsevenpage" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FoodManagerSeventhGoal">
+   <children>
+      <Label fx:id="fmseventitle" layoutX="193.0" layoutY="44.0" text="Waste Management">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Line endX="499.0" layoutX="100.0" layoutY="98.0" startX="-100.0" />
+      <Label fx:id="fmsevenstatuslabel" layoutX="51.0" layoutY="128.0" text="Current Waste Records:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TableView fx:id="fmsevenrecordtable" layoutX="51.0" layoutY="160.0" prefHeight="200.0" prefWidth="226.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Waste Type" />
+          <TableColumn prefWidth="75.0" text="Quantity" />
+            <TableColumn prefWidth="75.0" text="Date" />
+        </columns>
+      </TableView>
+      <Label fx:id="fmsevenaddlabel" layoutX="336.0" layoutY="130.0" text="Add Waste Record:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="fmseventypelabel" layoutX="336.0" layoutY="174.0" text="Type:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="fmsevenquantitylabel" layoutX="336.0" layoutY="221.0" text="Quantity:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="fmsevendatelabel" layoutX="340.0" layoutY="268.0" text="Date:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="fmseventypeinput" layoutX="407.0" layoutY="172.0" />
+      <TextField fx:id="fmsevenquantityinput" layoutX="407.0" layoutY="219.0" />
+      <DatePicker fx:id="fmsevendateinput" layoutX="411.0" layoutY="266.0" prefHeight="25.0" prefWidth="149.0" />
+      <Button layoutX="339.0" layoutY="316.0" mnemonicParsing="false" onAction="#fmsevenaddbutton" text="Add">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="fmsevenbackbutton" layoutX="496.0" layoutY="319.0" mnemonicParsing="false" text="Back">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

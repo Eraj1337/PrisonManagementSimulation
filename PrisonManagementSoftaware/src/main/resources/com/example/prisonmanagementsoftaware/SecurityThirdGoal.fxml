@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="smthreepage" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagementsoftaware.SecurityThirdGoal">
+   <children>
+      <Label fx:id="smthreetitle" layoutX="71.0" layoutY="32.0" text="Organize Security Training Sessions &amp; Drills">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Line endX="494.29290771484375" endY="-6.0" layoutX="107.0" layoutY="89.0" startX="-100.0" />
+      <Label fx:id="smthreetypelabel" layoutX="71.0" layoutY="124.0" text="Session Type:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="smthreedatelabel" layoutX="71.0" layoutY="169.0" text="Date:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="smthreetimelabel" layoutX="71.0" layoutY="211.0" text="Time:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="smthreeplacelabel" layoutX="71.0" layoutY="254.0" text="Place:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="smthreestafflabel" layoutX="71.0" layoutY="299.0" text="Assigned Staff:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="smthreetypeinput" layoutX="227.0" layoutY="122.0" />
+      <TextField fx:id="smthreepageinput" layoutX="230.0" layoutY="252.0" />
+      <TextField fx:id="smthreestaffinput" layoutX="230.0" layoutY="297.0" />
+      <DatePicker fx:id="smthreedateinput" layoutX="230.0" layoutY="167.0" />
+      <TextField fx:id="smthreetimeinput" layoutX="230.0" layoutY="209.0" />
+      <Button layoutX="454.0" layoutY="297.0" mnemonicParsing="false" onAction="#smthreeschedulebutton" text="Schedule Drill">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="454.0" layoutY="348.0" mnemonicParsing="false" onAction="#smthreebackbutton" text="Back">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

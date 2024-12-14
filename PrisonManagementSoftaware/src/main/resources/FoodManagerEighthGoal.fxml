@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="fmeightpage" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FoodManagerEighthGoal">
+   <children>
+      <Label fx:id="fmeighttitle" layoutX="154.0" layoutY="37.0" text="Special Dietary Requirements">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Line endX="499.0" endY="-7.0" layoutX="101.0" layoutY="100.0" startX="-100.0" />
+      <Label fx:id="fmeightstatuslabel" layoutX="52.0" layoutY="139.0" text="Current Special Dietary Status:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TableView fx:id="fmeightstatustable" layoutX="54.0" layoutY="175.0" prefHeight="200.0" prefWidth="249.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Inmate ID" />
+          <TableColumn prefWidth="173.0" text="Requirements/Prohibitance" />
+        </columns>
+      </TableView>
+      <Label fx:id="fmeightaddlabel" layoutX="340.0" layoutY="139.0" text="Add Special Requirements:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="fmeightinmateidlabel" layoutX="340.0" layoutY="175.0" text="Inmate ID:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="fmeightrlabel" layoutX="340.0" layoutY="216.0" text="Requirements/">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="fmeightplabel" layoutX="340.0" layoutY="236.0" text="Prohibitance:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="fmeightinmateidinput" layoutX="439.0" layoutY="173.0" />
+      <TextArea fx:id="fmeightrpinput" layoutX="439.0" layoutY="215.0" prefHeight="115.0" prefWidth="149.0" />
+      <Button layoutX="439.0" layoutY="338.0" mnemonicParsing="false" onAction="#fmeightaddbutton" text="Add">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="541.0" layoutY="338.0" mnemonicParsing="false" onAction="#fmeightbackbutton" text="Back">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

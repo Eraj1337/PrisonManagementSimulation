@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="foodmanagerpage" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagementsoftaware.DashboardFoodManager">
+   <children>
+      <Button layoutX="75.0" layoutY="141.0" mnemonicParsing="false" onAction="#mealplanninglabel" prefHeight="30.0" prefWidth="155.0" text="Meal Planning">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="costmanagementlabel" layoutX="75.0" layoutY="194.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="155.0" text="Cost Management">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="meldistributionlabel" layoutX="75.0" layoutY="241.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="155.0" text="Meal Distribuition">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="suppliermanagementlabel" layoutX="75.0" layoutY="293.0" mnemonicParsing="false" text="Supplier Management">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="nutritionalanalysislabel" layoutX="370.0" layoutY="141.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="163.0" text="Nutritional Analysis">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="inventorymanagementlabel" layoutX="370.0" layoutY="194.0" mnemonicParsing="false" text="Inventory Management">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="wastemanagementlabel" layoutX="368.0" layoutY="241.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="163.0" text="Waste Management">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="specialdietlabel" layoutX="370.0" layoutY="293.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="163.0" text="Special Diet">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="foodmanagerbacklabel" layoutX="533.0" layoutY="361.0" mnemonicParsing="false" text="Back" />
+      <Label fx:id="foodmanagerwelcomelabel" layoutX="164.0" layoutY="44.0" text="Welcome, Food Manager!">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Line endX="586.0" layoutX="14.0" layoutY="92.0" startX="-100.0" />
+   </children>
+</AnchorPane>

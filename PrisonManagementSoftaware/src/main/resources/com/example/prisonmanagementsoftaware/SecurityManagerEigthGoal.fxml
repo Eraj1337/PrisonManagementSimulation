@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="smeighthpage" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagementsoftaware.SecurityManagerEigthGoal">
+   <children>
+      <Label fx:id="smeighthtitle" layoutX="140.0" layoutY="39.0" text="Security Reports and Analytics">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Line endX="499.0" layoutX="101.0" layoutY="99.0" startX="-100.0" />
+      <Label fx:id="smeighthlocationtitle" layoutX="64.0" layoutY="137.0" text="Location:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="smeighthdatelabel" layoutX="64.0" layoutY="178.0" text="Date:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="smeighthdateinput" layoutX="191.0" layoutY="176.0" />
+      <TextField fx:id="smeighthlocationinput" layoutX="191.0" layoutY="135.0" prefHeight="25.0" prefWidth="174.0" />
+      <Label fx:id="smeighthtypelabel" layoutX="64.0" layoutY="238.0" text="Report Type:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <RadioButton layoutX="191.0" layoutY="240.0" mnemonicParsing="false" onAction="#smeighthincidentrb" text="Incident">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton layoutX="191.0" layoutY="268.0" mnemonicParsing="false" onAction="#smeighthequipmentsrb" text="Equipments">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton layoutX="193.0" layoutY="298.0" mnemonicParsing="false" onAction="#smeighthfinancialrb" text="Financial">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton layoutX="193.0" layoutY="328.0" mnemonicParsing="false" onAction="#smeighthcompliancerb" text="Compliance">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton layoutX="194.0" layoutY="355.0" mnemonicParsing="false" onAction="#smeighthpolicyrb" text="Policy">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <Button layoutX="434.0" layoutY="286.0" mnemonicParsing="false" onAction="#smeighthgeneratebutton" text="Generate Report">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="434.0" layoutY="336.0" mnemonicParsing="false" onAction="#smeighthbackbutton" text="Back">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

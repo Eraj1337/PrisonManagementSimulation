@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="smsixthpage" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagementsoftaware.SecuritySixthGoal">
+   <children>
+      <Label fx:id="smsixthtitle" contentDisplay="CENTER" layoutX="24.0" layoutY="44.0" text="Collaborate with external law enforcement agencies.">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Line endX="493.0" layoutX="107.0" layoutY="104.0" startX="-107.0" />
+      <Label fx:id="smsixthagencylabel" layoutX="87.0" layoutY="127.0" text="Agency Name:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="smsixthpersonlabel" layoutX="88.0" layoutY="171.0" text="Contact Person:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="smsixthdatelabel" layoutX="87.0" layoutY="214.0" text="Date:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="smsixthpurposelabel" layoutX="87.0" layoutY="261.0" text="Purpose:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="smsithagencyinput" layoutX="268.0" layoutY="125.0" prefHeight="25.0" prefWidth="149.0" />
+      <TextField fx:id="smsixthpersoninput" layoutX="268.0" layoutY="169.0" prefHeight="25.0" prefWidth="149.0" />
+      <TextArea fx:id="smsixthpurposeinput" layoutX="268.0" layoutY="259.0" prefHeight="101.0" prefWidth="149.0" />
+      <DatePicker fx:id="smsixthdateinput" layoutX="268.0" layoutY="212.0" prefHeight="25.0" prefWidth="149.0" />
+      <Button layoutX="480.0" layoutY="259.0" mnemonicParsing="false" onAction="#smsixthcoordinatebutton" text="Coordinate" />
+      <Button fx:id="smsixthbackbutton" layoutX="480.0" layoutY="335.0" mnemonicParsing="false" onAction="#smsixthbackbutton" prefHeight="25.0" prefWidth="75.0" text="Back" />
+   </children>
+</AnchorPane>

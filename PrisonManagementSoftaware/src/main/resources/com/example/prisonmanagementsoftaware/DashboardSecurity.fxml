@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="securitymanagerpage" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagementsoftaware.DashboardSecurity">
+   <children>
+      <Button fx:id="safetyandsecuritylabel" layoutX="69.0" layoutY="135.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="180.0" text="Safety &amp; Security">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="inmatemovementslabel" layoutX="69.0" layoutY="192.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="180.0" text="Inmate Movements">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="securitydrillsandtraininglabel" layoutX="69.0" layoutY="245.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="180.0" text="Security Drills &amp; Training">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="securityequipmentslabel" layoutX="69.0" layoutY="299.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="180.0" text="Security Equipments">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="responseissuelabel" layoutX="357.0" layoutY="135.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="180.0" text="Response Issue">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="externernalcoordinationlabel" layoutX="357.0" layoutY="192.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="180.0" text="Exnernel Coordination">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="securitypolicieslabel" layoutX="357.0" layoutY="245.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="180.0" text="Security Policies">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="reportsandanalyticslabel" layoutX="357.0" layoutY="299.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="180.0" text="Reports &amp; Analytics">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="securitybacklabel" layoutX="528.0" layoutY="354.0" mnemonicParsing="false" text="Back" />
+      <Label fx:id="securitymanagerwelcomelabel" layoutX="149.0" layoutY="33.0" text="Welcome, Security Manager!">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Line endX="592.0" layoutX="8.0" layoutY="91.0" startX="-100.0" />
+   </children>
+</AnchorPane>

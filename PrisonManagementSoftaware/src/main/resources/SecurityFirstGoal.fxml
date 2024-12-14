@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="smonepage" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SecurityFirstGoal">
+   <children>
+      <Label fx:id="smonetitle" alignment="CENTER" layoutX="126.0" layoutY="37.0" text="Safety &amp; Security of Inmates">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Line endX="594.0" layoutX="5.0" layoutY="102.0" startX="-100.0" />
+      <DatePicker fx:id="smonedateinput" layoutX="127.0" layoutY="135.0" />
+      <Label fx:id="smonedatelabel" layoutX="37.0" layoutY="137.0" text="Date:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="smonetimelabel" layoutX="37.0" layoutY="183.0" text="Time:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="smoneinmateidlabel" layoutX="38.0" layoutY="223.0" text="Inmate ID:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="smonedescriptionlabel" layoutX="331.0" layoutY="138.0" text="Description:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="smonetimeinput" layoutX="127.0" layoutY="181.0" />
+      <TextField fx:id="smoneinmateidinput" layoutX="127.0" layoutY="221.0" />
+      <TextArea fx:id="smonedescriptioninput" layoutX="418.0" layoutY="139.0" prefHeight="156.0" prefWidth="149.0" />
+      <Button layoutX="418.0" layoutY="317.0" mnemonicParsing="false" onAction="#saverecordbutton" text="Save Record">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="418.0" layoutY="361.0" mnemonicParsing="false" onAction="#smonebackbutton" text="Back">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
