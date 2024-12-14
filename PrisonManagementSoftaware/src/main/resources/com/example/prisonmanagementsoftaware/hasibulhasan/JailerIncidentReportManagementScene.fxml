@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="840.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagementsoftaware.hasibulhasan.JailerIncidentReportManagementSceneController">
+   <children>
+      <TableView fx:id="incidentReportTableView" layoutX="20.0" layoutY="162.0" prefHeight="353.0" prefWidth="800.0">
+        <columns>
+          <TableColumn fx:id="reportTitleTableColumn" prefWidth="201.0" text="Report Title" />
+          <TableColumn fx:id="incidentTimeTableColumn" prefWidth="174.0" text="Incident Time" />
+            <TableColumn fx:id="incidentDateTableColumn" prefWidth="170.0" text="Incident Date" />
+            <TableColumn fx:id="locationTableColumn" prefWidth="254.0" text="Location" />
+        </columns>
+      </TableView>
+      <Button layoutX="658.0" layoutY="579.0" mnemonicParsing="false" onAction="#backButtonOnClick" text="Back to Dashboard">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font></Button>
+      <Button layoutX="20.0" layoutY="579.0" mnemonicParsing="false" onAction="#viewReportButtonOnClick" text="View Selected Incident Report">
+         <font>
+            <Font name="Calibri Bold" size="18.0" />
+         </font></Button>
+      <Label layoutX="235.0" layoutY="31.0" text="Incident Report Managment">
+         <font>
+            <Font name="Arial Bold" size="27.0" />
+         </font>
+      </Label>
+      <Button layoutX="370.0" layoutY="579.0" mnemonicParsing="false" onAction="#createIncidentReportButtonOnClick" text="Create Incident Report">
+         <font>
+            <Font name="Calibri Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

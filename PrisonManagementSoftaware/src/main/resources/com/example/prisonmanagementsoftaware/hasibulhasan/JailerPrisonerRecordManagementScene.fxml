@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="840.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagementsoftaware.hasibulhasan.JailerPrisonerRecordManagementSceneController">
+   <children>
+      <TableView fx:id="allPrisonersTableView" layoutX="20.0" layoutY="162.0" prefHeight="353.0" prefWidth="800.0">
+        <columns>
+          <TableColumn fx:id="prisonerIdTableColumn" prefWidth="78.0" text="ID" />
+          <TableColumn fx:id="prisonerNameTableColumn" prefWidth="150.0" text="Name" />
+            <TableColumn fx:id="crimeNameTableColumn" prefWidth="175.0" text="Crime Name" />
+            <TableColumn fx:id="dateOfAdmissionTableColumn" prefWidth="177.0" text="Date of Admission" />
+            <TableColumn fx:id="emergencyContactTableColumn" prefWidth="219.0" text="Emergency Contact" />
+        </columns>
+      </TableView>
+      <Button layoutX="658.0" layoutY="579.0" mnemonicParsing="false" onAction="#backButtonOnClick" text="Back to Dashboard">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font></Button>
+      <Button layoutX="20.0" layoutY="579.0" mnemonicParsing="false" onAction="#viewPrisonerButtonOnClick" text="View Selected Prisoner">
+         <font>
+            <Font name="Calibri Bold" size="18.0" />
+         </font></Button>
+      <Label layoutX="229.0" layoutY="32.0" text="Prisoner Record Management">
+         <font>
+            <Font name="Arial Bold" size="27.0" />
+         </font>
+      </Label>
+      <Button layoutX="269.0" layoutY="579.0" mnemonicParsing="false" onAction="#viewParoleEligibilityButtonOnClick" text="View Parole Eligibility for Selected Prisoner">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="634.0" layoutY="115.0" mnemonicParsing="false" onAction="#loadButtonOnClick" text="Load All Prisoner Data">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

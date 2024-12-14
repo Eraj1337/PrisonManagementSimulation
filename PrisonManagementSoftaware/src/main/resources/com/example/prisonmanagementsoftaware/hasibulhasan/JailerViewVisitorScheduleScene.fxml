@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="840.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagementsoftaware.hasibulhasan.JailerViewVisitorScheduleSceneController">
+   <children>
+      <Label layoutX="105.0" layoutY="27.0" text="Visitor Schedule Management">
+         <font>
+            <Font name="Arial Bold" size="46.0" />
+         </font></Label>
+      <Label layoutX="118.0" layoutY="189.0" text="Prisoner Name: ">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font></Label>
+      <Label layoutX="118.0" layoutY="122.0" text="Visitor Name:">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font></Label>
+      <Label layoutX="117.0" layoutY="449.0" text="Visit End Time:">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font></Label>
+      <Label layoutX="118.0" layoutY="260.0" text="Date of Visit:">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font></Label>
+      <TextField fx:id="prisonerNameTextField" layoutX="430.0" layoutY="180.0">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font></TextField>
+      <TextField fx:id="visitorNameTextField" editable="false" layoutX="431.0" layoutY="113.0">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font></TextField>
+      <TextField fx:id="visitEndTimeHourTextField" layoutX="430.0" layoutY="440.0" prefHeight="49.0" prefWidth="70.0">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font></TextField>
+      <Button layoutX="119.0" layoutY="546.0" mnemonicParsing="false" onAction="#updateDetailsButtonOnClick" prefHeight="65.0" prefWidth="238.0" text="Update Details">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font></Button>
+      <Button layoutX="514.0" layoutY="546.0" mnemonicParsing="false" onAction="#backButtonOnClick" prefHeight="65.0" prefWidth="238.0" text="Back to Record Management" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Arial" size="19.0" />
+         </font></Button>
+      <Label layoutX="117.0" layoutY="379.0" text="Visit Start Time:">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="dateOfVisitDatePicker" layoutX="431.0" layoutY="251.0" prefHeight="49.0" prefWidth="321.0" />
+      <TextField fx:id="visitStartTimeHourTextField" layoutX="430.0" layoutY="372.0" prefHeight="49.0" prefWidth="70.0">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="visitStartTimeMinuteTextField" layoutX="530.0" layoutY="372.0" prefHeight="49.0" prefWidth="70.0">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="visitEndTimeMinuteTextField" layoutX="530.0" layoutY="440.0" prefHeight="49.0" prefWidth="70.0">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font>
+      </TextField>
+      <Label layoutX="448.0" layoutY="320.0" text="HH">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="542.0" layoutY="320.0" text="MM">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="511.0" layoutY="379.0" text=":">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="511.0" layoutY="449.0" text=":">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

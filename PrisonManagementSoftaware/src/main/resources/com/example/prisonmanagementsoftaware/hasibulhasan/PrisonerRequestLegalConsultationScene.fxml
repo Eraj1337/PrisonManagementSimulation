@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="840.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagementsoftaware.hasibulhasan.PrisonerRequestLegalConsultationScene">
+   <children>
+      <Label layoutX="114.0" layoutY="28.0" text="Request Legal Consultation">
+         <font>
+            <Font name="Arial Bold" size="46.0" />
+         </font></Label>
+      <Label fx:id="prisonerNameLabel" layoutX="265.0" layoutY="94.0" text="Prisoner Name: ">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font></Label>
+      <Label fx:id="prisonerIdLabel" layoutX="24.0" layoutY="94.0" text="Prisoner ID:">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font></Label>
+      <Label layoutX="24.0" layoutY="159.0" text="Reason for Consultation:">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font></Label>
+      <Button layoutX="24.0" layoutY="546.0" mnemonicParsing="false" onAction="#submitButtonOnClick" prefHeight="65.0" prefWidth="336.0" text="Submit Request">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font></Button>
+      <Button layoutX="569.0" layoutY="546.0" mnemonicParsing="false" onAction="#backButtonOnClick" prefHeight="65.0" prefWidth="238.0" text="Back to Dashboard" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Arial" size="19.0" />
+         </font></Button>
+      <Label layoutX="24.0" layoutY="283.0" text="Additional Information:">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="appealRadioButton" layoutX="337.0" layoutY="164.0" mnemonicParsing="false" text="Appeal">
+         <toggleGroup>
+            <ToggleGroup fx:id="consultReasonToggleGroup" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="newEvidenceRadioButton" layoutX="538.0" layoutY="164.0" mnemonicParsing="false" text="New Evidence">
+         <toggleGroup>
+            <ToggleGroup fx:id="consultReasonToggleGroup1" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="paroleRadioButton" layoutX="442.0" layoutY="164.0" mnemonicParsing="false" text="Parole">
+         <toggleGroup>
+            <ToggleGroup fx:id="consultReasonToggleGroup2" />
+         </toggleGroup>
+      </RadioButton>
+      <TextArea fx:id="additionalInformationTextArea" layoutX="24.0" layoutY="341.0" prefHeight="191.0" prefWidth="783.0" />
+      <Label layoutX="24.0" layoutY="220.0" text="Preferred Date:">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="preferredDateDatePicker" layoutX="212.0" layoutY="211.0" prefHeight="49.0" prefWidth="218.0" />
+      <TextField fx:id="preferredTimeHourTextField" layoutX="638.0" layoutY="211.0" prefHeight="49.0" prefWidth="74.0">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font>
+      </TextField>
+      <Label layoutX="453.0" layoutY="220.0" text="Preferred Time:">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font>
+      </Label>
+      <TextField fx:id="preferredTimeMinuteTextField" layoutX="733.0" layoutY="211.0" prefHeight="49.0" prefWidth="74.0">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font>
+      </TextField>
+      <Label layoutX="719.0" layoutY="220.0" text=":">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="658.0" layoutY="260.0" text="HH">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="747.0" layoutY="260.0" text="MM">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

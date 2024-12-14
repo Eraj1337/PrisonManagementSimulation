@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="840.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagementsoftaware.hasibulhasan.JailerCreateBehaviorReportSceneController">
+   <children>
+      <Label fx:id="titleLabel" layoutX="163.0" layoutY="25.0" text="Create Behavior Report">
+         <font>
+            <Font name="Arial Bold" size="46.0" />
+         </font></Label>
+      <Label fx:id="prisonerNameLabel" layoutX="293.0" layoutY="99.0" text="Prisoner Name: ">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font></Label>
+      <Label fx:id="prisonerIdLabel" layoutX="34.0" layoutY="98.0" text="Prisoner ID:">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font></Label>
+      <Label layoutX="34.0" layoutY="149.0" text="Report Title:">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font></Label>
+      <TextField fx:id="reportTitleTextField" layoutX="254.0" layoutY="140.0">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font></TextField>
+      <Button layoutX="37.0" layoutY="546.0" mnemonicParsing="false" onAction="#submitButtonOnClick" prefHeight="65.0" prefWidth="225.0" text="Submit Report">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font></Button>
+      <Button layoutX="569.0" layoutY="546.0" mnemonicParsing="false" onAction="#backButtonOnClick" prefHeight="65.0" prefWidth="238.0" text="Back to Parole Eligibility Management" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Arial" size="19.0" />
+         </font></Button>
+      <Label layoutX="34.0" layoutY="207.0" text="Report Overview:">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="reportOverviewComboBox" layoutX="254.0" layoutY="198.0" prefHeight="49.0" prefWidth="321.0" />
+      <Label layoutX="34.0" layoutY="268.0" text="Report Details:">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="dateIssuedLabel" layoutX="599.0" layoutY="139.0" text="Date Issued:" />
+      <Label fx:id="dateUpdatedLabel" layoutX="599.0" layoutY="171.0" text="Date Updated:" />
+      <TextArea fx:id="reportDetailsTextArea" layoutX="35.0" layoutY="312.0" prefHeight="200.0" prefWidth="770.0" />
+   </children>
+</AnchorPane>

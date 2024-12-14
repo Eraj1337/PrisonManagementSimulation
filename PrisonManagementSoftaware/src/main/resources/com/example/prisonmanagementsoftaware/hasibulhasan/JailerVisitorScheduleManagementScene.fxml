@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="840.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagementsoftaware.hasibulhasan.JailerVisitorScheduleManagementSceneController">
+   <children>
+      <TableView fx:id="visitorScheduleTableView" layoutX="20.0" layoutY="162.0" prefHeight="353.0" prefWidth="800.0">
+        <columns>
+          <TableColumn fx:id="visitorNameTableColumn" prefWidth="137.0" text="Visitor Name" />
+          <TableColumn fx:id="prisonerNameTableColumn" prefWidth="179.0" text="Prisoner Name" />
+            <TableColumn fx:id="dateOfVisitTableColumn" prefWidth="161.0" text="Date of Visit" />
+            <TableColumn fx:id="visitStartTimeTableColumn" prefWidth="184.0" text="Visit Start Time" />
+            <TableColumn fx:id="visitEndTimeTableColumn" prefWidth="138.0" text="Visit End Time" />
+        </columns>
+      </TableView>
+      <Button layoutX="658.0" layoutY="579.0" mnemonicParsing="false" onAction="#backButtonOnClick" text="Back to Dashboard">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font></Button>
+      <Button layoutX="20.0" layoutY="579.0" mnemonicParsing="false" onAction="#viewScheduleButtonOnClick" text="View Selected Visit Schedule">
+         <font>
+            <Font name="Calibri Bold" size="18.0" />
+         </font></Button>
+      <Label layoutX="235.0" layoutY="31.0" text="Visitor Schedule Managment">
+         <font>
+            <Font name="Arial Bold" size="27.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

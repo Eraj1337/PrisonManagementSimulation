@@ -1,5 +1,6 @@
 package com.example.prisonmanagementsoftaware;
 
+import com.example.prisonmanagementsoftaware.hasibulhasan.Prisoner;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -7,10 +8,10 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class Prison extends Application {
+public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(Prison.class.getResource("LoginPage.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(Prisoner.class.getResource("JailerPrisonerParoleEligibilityManagementScene.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Prison Management System");
         stage.setScene(scene);
