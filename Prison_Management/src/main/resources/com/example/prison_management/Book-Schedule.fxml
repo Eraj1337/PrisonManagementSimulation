@@ -19,9 +19,9 @@
       <Button layoutX="319.0" layoutY="302.0" mnemonicParsing="false" onAction="#verifyandconfirmButton" prefHeight="26.0" prefWidth="166.0" text="Verify and Confirm" />
       <TableView fx:id="bookScheduleinfoTableview" layoutX="-5.0" layoutY="355.0" prefHeight="272.0" prefWidth="806.0">
         <columns>
-          <TableColumn fx:id="visitorNameinfocolumn" prefWidth="156.80001527071" text="Visitor Name" />
-          <TableColumn fx:id="timeinfocolumn" prefWidth="258.3999786376953" text="Time" />
-            <TableColumn fx:id="dateinfocolumn" prefWidth="210.39998168945317" text="Date" />
+          <TableColumn fx:id="visitorNameinfocolumn" prefWidth="241.59998178482056" text="Visitor Name" />
+          <TableColumn fx:id="timeinfocolumn" prefWidth="291.9999694824219" text="Time" />
+            <TableColumn fx:id="dateinfocolumn" prefWidth="255.19989013671875" text="Date" />
         </columns>
       </TableView>
       <Button layoutX="724.0" layoutY="645.0" mnemonicParsing="false" text="Back" />

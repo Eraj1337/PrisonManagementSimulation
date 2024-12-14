@@ -14,8 +14,9 @@
       <TextField layoutX="128.0" layoutY="133.0" />
       <Label layoutX="66.0" layoutY="191.0" text="Label" />
       <TextField layoutX="128.0" layoutY="187.0" />
-      <Button layoutX="210.0" layoutY="239.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="150.0" text="Transport Details" />
-      <Button layoutX="52.0" layoutY="321.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="150.0" text="Logout" />
-      <Button layoutX="341.0" layoutY="321.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="150.0" text="Back" />
+      <Button layoutX="224.0" layoutY="262.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="150.0" text="Transport Details" />
+      <Button layoutX="38.0" layoutY="331.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="150.0" text="Logout" />
+      <Button layoutX="397.0" layoutY="331.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="150.0" text="Back" />
+      <Label layoutX="170.0" layoutY="14.0" style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Emergency Response" />
    </children>
 </AnchorPane>

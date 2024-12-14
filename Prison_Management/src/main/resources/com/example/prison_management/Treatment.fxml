@@ -7,22 +7,22 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane prefHeight="522.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prison_management.Treatment">
    <children>
-      <Label layoutX="32.0" layoutY="39.0" prefHeight="34.0" prefWidth="150.0" text="Inmate Health Records" />
-      <TextField layoutX="226.0" layoutY="43.0" />
-      <Label layoutX="39.0" layoutY="101.0" prefHeight="34.0" prefWidth="150.0" text="Inmate Health Records" />
-      <TextField layoutX="226.0" layoutY="105.0" />
-      <Button layoutX="73.0" layoutY="158.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="94.0" text="Report" />
-      <TableView layoutY="225.0" prefHeight="200.0" prefWidth="611.0">
+      <Label layoutX="21.0" layoutY="87.0" prefHeight="34.0" prefWidth="150.0" text="Inmate Health Records" />
+      <TextField fx:id="healthrecordTextField" layoutX="231.0" layoutY="91.0" />
+      <Label layoutX="21.0" layoutY="146.0" prefHeight="34.0" prefWidth="150.0" text="Diagnosis Injury" />
+      <TextField fx:id="injuryTextField" layoutX="231.0" layoutY="150.0" />
+      <Button layoutX="247.0" layoutY="198.0" mnemonicParsing="false" onAction="#reportButton" prefHeight="48.0" prefWidth="94.0" text="Report" />
+      <TableView fx:id="infoTableView" layoutY="254.0" prefHeight="200.0" prefWidth="611.0">
         <columns>
-          <TableColumn prefWidth="197.59998166561127" text="Name" />
-          <TableColumn prefWidth="208.0" text="Dogase" />
-            <TableColumn prefWidth="205.60000610351562" text="Frequency" />
+          <TableColumn fx:id="nameInfoColumnView" prefWidth="197.59998166561127" text="Name" />
+          <TableColumn fx:id="dogaseInfoColumnView" prefWidth="208.0" text="Dogase" />
+            <TableColumn fx:id="frequencyInfoColumnView" prefWidth="205.60000610351562" text="Frequency" />
         </columns>
       </TableView>
-      <Button layoutX="84.0" layoutY="457.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="73.0" text="Log Out" />
-      <Button layoutX="444.0" layoutY="457.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" text="Back" />
+      <Button layoutX="60.0" layoutY="470.0" mnemonicParsing="false" onAction="#logoutButton" prefHeight="26.0" prefWidth="73.0" text="Log Out" />
+      <Button layoutX="462.0" layoutY="470.0" mnemonicParsing="false" onAction="#backButton" prefHeight="26.0" prefWidth="82.0" text="Back" />
+      <Label layoutX="235.0" layoutY="24.0" style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Treatment" />
    </children>
 </AnchorPane>
