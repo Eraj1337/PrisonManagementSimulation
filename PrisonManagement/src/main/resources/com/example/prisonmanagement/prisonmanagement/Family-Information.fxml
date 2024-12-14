@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="474.0" prefWidth="752.0" style="-fx-background-color: #cff7ff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagement.prisonmanagement.FamilyInformation">
+   <children>
+      <Label layoutX="268.0" layoutY="14.0" style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Family Information" />
+      <TableView fx:id="familyTableView" layoutX="43.0" layoutY="100.0" prefHeight="200.0" prefWidth="522.0">
+        <columns>
+          <TableColumn fx:id="familyNameColumn" prefWidth="104.00006103515625" text="Name" />
+          <TableColumn fx:id="numberColumn" prefWidth="121.5999755859375" text="Number" />
+            <TableColumn fx:id="addressColumn" prefWidth="160.800048828125" text="Address" />
+            <TableColumn fx:id="emailColumn" prefWidth="134.39996337890625" text="Email" />
+        </columns>
+      </TableView>
+      <Button layoutX="131.0" layoutY="345.0" mnemonicParsing="false" onAction="#updateBtn" text="Update Information" />
+      <Button layoutX="351.0" layoutY="345.0" mnemonicParsing="false" onAction="#deleteBtn" text="Delete Information" />
+      <TextArea fx:id="familyTextArea" layoutX="605.0" layoutY="100.0" prefHeight="118.0" prefWidth="122.0" />
+   </children>
+</AnchorPane>
