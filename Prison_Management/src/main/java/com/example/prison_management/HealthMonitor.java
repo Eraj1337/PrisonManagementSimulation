@@ -33,9 +33,7 @@ public class HealthMonitor
     }
 
     @javafx.fxml.FXML
-    public void backButton(ActionEvent actionEvent) throws IOException {
-        SceneSwitcher.switchScene("OfficerDashBoard.fxml",event,"DashBoard");
-
+    public void backButtonOnAction(ActionEvent actionEvent)  throws IOException {
+        SceneSwitcher.switchScene("Officer-DashBoard.fxml",actionEvent,"DashBoard");
     }
-
 }

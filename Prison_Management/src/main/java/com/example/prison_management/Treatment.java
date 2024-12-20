@@ -30,7 +30,7 @@ public class Treatment {
 
     @FXML
     void backButton(ActionEvent event) throws IOException {
-        SceneSwitcher.switchScene("OfficerDashBoard.fxml",event,"DashBoard");
+        SceneSwitcher.switchScene("Officer-DashBoard.fxml",event,"DashBoard");
 
     }
 
