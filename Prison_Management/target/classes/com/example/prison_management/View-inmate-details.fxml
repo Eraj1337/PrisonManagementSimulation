@@ -4,6 +4,7 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.RadioButton?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
 <?import javafx.scene.layout.AnchorPane?>
 
 <AnchorPane prefHeight="502.0" prefWidth="702.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prison_management.ViewInmateDetails">
@@ -39,8 +40,11 @@
       <Button layoutX="556.0" layoutY="437.0" mnemonicParsing="false" onAction="#backButton" prefHeight="26.0" prefWidth="68.0" text="Back" />
       <TextField fx:id="nameTextf" layoutX="125.0" layoutY="113.0" />
       <TextField layoutX="125.0" layoutY="147.0" />
-      <RadioButton layoutX="108.0" layoutY="190.0" mnemonicParsing="false" text="Male" />
-      <RadioButton layoutX="210.0" layoutY="190.0" mnemonicParsing="false" text="Female" />
+      <RadioButton layoutX="108.0" layoutY="190.0" mnemonicParsing="false" selected="true" text="Male">
+         <toggleGroup>
+            <ToggleGroup fx:id="gender" />
+         </toggleGroup></RadioButton>
+      <RadioButton layoutX="210.0" layoutY="190.0" mnemonicParsing="false" selected="true" text="Female" toggleGroup="$gender" />
       <TextField layoutX="108.0" layoutY="221.0" />
       <TextField layoutX="135.0" layoutY="280.0" />
       <TextField layoutX="135.0" layoutY="325.0" />
