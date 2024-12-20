@@ -37,5 +37,9 @@ public class OfficerDashboard {
 
     }
 
+    @FXML
+    public void logoutButtonOnAction(ActionEvent actionEvent) throws IOException {
+        SceneSwitcher.switchScene("DashBoard.fxml",actionEvent,"viewDashboard");
+    }
 }
 

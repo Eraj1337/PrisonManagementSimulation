@@ -12,5 +12,6 @@
       <Button layoutX="231.0" layoutY="280.0" mnemonicParsing="false" onAction="#SupportButtononclick" prefHeight="78.0" prefWidth="98.0" text="Support" />
       <Button layoutX="395.0" layoutY="233.0" mnemonicParsing="false" onAction="#emergencyResponsButtononclick" prefHeight="58.0" prefWidth="163.0" text="Emergency Response" />
       <Label layoutX="189.0" layoutY="36.0" style="-fx-font-size: 24px; -fx-font-weight: bold;" text=" Officer Dashboard" />
+      <Button layoutX="238.0" layoutY="407.0" mnemonicParsing="false" onAction="#logoutButtonOnAction" prefHeight="26.0" prefWidth="90.0" text="Logout" />
    </children>
 </AnchorPane>

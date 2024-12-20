@@ -15,5 +15,6 @@
         <Button layoutX="365.0" layoutY="138.0" onAction="#bookScheduleButton" prefWidth="200" text="Book your Schedule" />
         <Button layoutX="217.0" layoutY="308.0" onAction="#feedbackButton" prefWidth="200" text="Give your Feedback" />
         <Button layoutX="358.0" layoutY="225.0" onAction="#rulesRegulationsButton" prefWidth="200" text="Rules and Regulations for Visit" />
+      <Button layoutX="292.0" layoutY="427.0" mnemonicParsing="false" onAction="#logOutButtonOnAction" text="Logout" />
     </children>
 </AnchorPane>

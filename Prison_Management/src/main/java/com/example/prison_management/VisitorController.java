@@ -38,4 +38,8 @@ public class VisitorController {
 
     }
 
+    @FXML
+    public void logOutButtonOnAction(ActionEvent actionEvent) throws IOException {
+        SceneSwitcher.switchScene("DashBoard.fxml",actionEvent,"viewDashBoard");
+    }
 }
