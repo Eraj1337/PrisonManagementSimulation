@@ -6,19 +6,17 @@
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="528.0" prefWidth="695.0" style="-fx-background-color: #cff7ff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="554.0" prefWidth="699.0" style="-fx-background-color: #cff7ff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagement.prisonmanagement.ViewReportController">
 
-    <Label layoutX="278.0" layoutY="14.0" style="-fx-font-size: 24px; -fx-font-weight: bold;" text="View Report" AnchorPane.leftAnchor="278.0" AnchorPane.topAnchor="14.0" />
+    <Label layoutX="279.0" layoutY="30.0" style="-fx-font-size: 24px; -fx-font-weight: bold;" text="View Report" AnchorPane.leftAnchor="279.0" AnchorPane.topAnchor="30.0" />
 
-    <TableView fx:id="reportTable" layoutX="74.0" layoutY="113.0" prefHeight="274.0" prefWidth="587.0" style="-fx-background-color: #80eaff;" AnchorPane.leftAnchor="74.0" AnchorPane.rightAnchor="74.79999999999995" AnchorPane.topAnchor="113.0">
+    <TableView fx:id="reportTable" layoutX="74.0" layoutY="161.0" prefHeight="274.0" prefWidth="587.0" style="-fx-background-color: #80eaff;" AnchorPane.leftAnchor="74.0" AnchorPane.rightAnchor="74.80000000000007" AnchorPane.topAnchor="161.0">
         <columns>
             <TableColumn fx:id="idColumn" prefWidth="122.40002286434174" style="-fx-background-color: #63b2c2;" text="ID" />
             <TableColumn fx:id="nameColumn" prefWidth="121.59998321533203" style="-fx-background-color: #63b2c2;" text="Name" />
             <TableColumn fx:id="detailsColumn" prefWidth="301.5999938964844" style="-fx-background-color: #63b2c2;" text="Details" />
         </columns>
     </TableView>
-    
-    <Button layoutX="552.0" layoutY="414.0" prefHeight="26.0" prefWidth="74.0" text="Back" AnchorPane.bottomAnchor="87.60000000000002" AnchorPane.rightAnchor="68.60000000000002" >
-        <onAction>#backBtn</onAction>
-    </Button>
+   <Button layoutX="595.0" layoutY="486.0" mnemonicParsing="false" onAction="#backOA" prefHeight="26.0" prefWidth="60.0" text="Back" />
+
 </AnchorPane>

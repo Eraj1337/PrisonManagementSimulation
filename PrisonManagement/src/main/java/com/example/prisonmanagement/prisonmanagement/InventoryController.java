@@ -5,6 +5,8 @@ import javafx.fxml.FXML;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 
+import java.io.IOException;
+
 public class InventoryController {
 
     @FXML
@@ -22,7 +24,8 @@ public class InventoryController {
     }
 
     @FXML
-    void backButton(ActionEvent event) {
+    void backButton(ActionEvent event) throws IOException {
+        com.example.prison_management.SceneSwitcher.switchScene("Maintenance-Staff.fxml", event, "Home");
 
     }
 

@@ -6,22 +6,20 @@
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="564.0" prefWidth="614.0" style="-fx-background-color: #cff7ff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
-   <children>
-      <Label layoutX="249.0" layoutY="32.0" style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Training" />
-      <AnchorPane layoutX="120.0" layoutY="97.0" prefHeight="63.0" prefWidth="351.0" style="-fx-background-color: #b8f1fc;">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="564.0" prefWidth="614.0" style="-fx-background-color: #cff7ff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagement.prisonmanagement.TrainingController">
+    <children>
+        <Label layoutX="249.0" layoutY="32.0" style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Training" />
+        <AnchorPane layoutX="120.0" layoutY="97.0" prefHeight="63.0" prefWidth="351.0" style="-fx-background-color: #b8f1fc;">
          <children>
-            <Button layoutX="110.0" layoutY="19.0" mnemonicParsing="false" text="View Training Session" >
-                <onAction>#viewTrainingButton</onAction>
-            </Button>
-         </children>
-      </AnchorPane>
-      <TableView fx:id="TrainingTableView" layoutX="93.0" layoutY="239.0" prefHeight="191.0" prefWidth="427.0" style="-fx-background-color: #80eaff;">
-        <columns>
-          <TableColumn fx:id="trainingSessionNameColumn" prefWidth="211.2000274658203" style="-fx-background-color: #63b2c2;" text="Training Session Name" />
-            <TableColumn fx:id="trainingSessionTimeColumn" prefWidth="102.4000244140625" style="-fx-background-color: #63b2c2;" text="Time" />
-          <TableColumn fx:id="trainingSessionEnrolledColumn" minWidth="0.0" prefWidth="111.19999999999999" style="-fx-background-color: #63b2c2;" text="Enrolled" />
-        </columns>
-      </TableView>
-   </children>
+            <Button layoutX="108.0" layoutY="19.0" mnemonicParsing="false" onAction="#showTrainingSessionOA" text="Show Training Session" />
+         </children></AnchorPane>
+        <TableView fx:id="TrainingTableView" layoutX="93.0" layoutY="239.0" prefHeight="191.0" prefWidth="427.0" style="-fx-background-color: #80eaff;">
+            <columns>
+                <TableColumn fx:id="trainingSessionNameColumn" prefWidth="211.2000274658203" style="-fx-background-color: #63b2c2;" text="Training Session Name" />
+                <TableColumn fx:id="trainingSessionTimeColumn" prefWidth="102.4000244140625" style="-fx-background-color: #63b2c2;" text="Time" />
+                <TableColumn fx:id="trainingSessionEnrolledColumn" minWidth="0.0" prefWidth="111.19999999999999" style="-fx-background-color: #63b2c2;" text="Enrolled" />
+            </columns>
+        </TableView>
+      <Button layoutX="499.0" layoutY="495.0" mnemonicParsing="false" onAction="#backOA" prefHeight="26.0" prefWidth="60.0" text="Back" />
+    </children>
 </AnchorPane>

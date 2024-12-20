@@ -6,6 +6,8 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextArea;
 
+import java.io.IOException;
+
 public class FamilyInformation {
 
     @FXML
@@ -36,4 +38,8 @@ public class FamilyInformation {
 
     }
 
+    @FXML
+    public void familyBackOA(ActionEvent actionEvent) throws IOException {
+        com.example.prison_management.SceneSwitcher.switchScene("Rehabiliation-Officer.fxml", actionEvent, "Home");
+    }
 }

@@ -7,7 +7,6 @@
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane prefHeight="474.0" prefWidth="752.0" style="-fx-background-color: #cff7ff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagement.prisonmanagement.FamilyInformation">
    <children>
       <Label layoutX="268.0" layoutY="14.0" style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Family Information" />
@@ -22,5 +21,6 @@
       <Button layoutX="131.0" layoutY="345.0" mnemonicParsing="false" onAction="#updateBtn" text="Update Information" />
       <Button layoutX="351.0" layoutY="345.0" mnemonicParsing="false" onAction="#deleteBtn" text="Delete Information" />
       <TextArea fx:id="familyTextArea" layoutX="605.0" layoutY="100.0" prefHeight="118.0" prefWidth="122.0" />
+      <Button layoutX="629.0" layoutY="407.0" mnemonicParsing="false" onAction="#familyBackOA" prefHeight="26.0" prefWidth="60.0" text="Back" />
    </children>
 </AnchorPane>

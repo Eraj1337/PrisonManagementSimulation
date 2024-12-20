@@ -1,48 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.String?>
-<?import javafx.collections.FXCollections?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="507.0" prefWidth="540.0" style="-fx-background-color: #cff7ff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
-
-
-    <Label layoutX="149.0" layoutY="14.0" style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Maintenance Staff" />
-    <AnchorPane layoutX="96.0" layoutY="110.0" prefHeight="94.0" prefWidth="314.0" style="-fx-background-color: #b8f1fc;">
-      <children>
-          <Button layoutX="170.0" layoutY="32.0" prefWidth="120" text="Submit Report" >
-             <onAction>#submitReportButtonClick</onAction>
-          </Button>
-
-
-          <Button layoutX="22.0" prefWidth="120" text="View Report" >
-             <onAction>#viewReportButtonClick</onAction>
-             <layoutY>33.0</layoutY>
-          </Button>
-      </children>
-   </AnchorPane>
-   <AnchorPane layoutX="96.0" layoutY="238.0" prefHeight="135.0" prefWidth="314.0" style="-fx-background-color: #b8f1fc;">
-      <children>
-
-
-          <Label layoutX="96.0" layoutY="14.0" style="-fx-font-size: 18px;" text="Select an Option:" />
-          <ComboBox layoutX="64.0" layoutY="56.0" prefWidth="200">
-             <onAction>#optionsComboBoxClick</onAction>
-             <items>
-                  <FXCollections fx:factory="observableArrayList">
-                      <String fx:value="Training" />
-                      <String fx:value="Inventory" />
-                      <String fx:value="Emergency Preparedness" />
-                  </FXCollections>
-              </items>
-          </ComboBox>
-         <Button layoutX="112.0" layoutY="95.0" prefWidth="120" text="Enter" >
-            <onAction>#enterButtonClick</onAction>
-         </Button>
-      </children>
-   </AnchorPane>
-
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="543.0" prefWidth="712.0" style="-fx-background-color: #cff7ff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagement.prisonmanagement.MaintenanceStaff">
+   <children>
+      <Label layoutX="237.0" layoutY="41.0" prefHeight="46.0" prefWidth="274.0" style="-fx-font-size: 24; -fx-font-weight: Bold;" text="Maintenance Staff" />
+      <AnchorPane layoutX="118.0" layoutY="152.0" prefHeight="102.0" prefWidth="474.0" style="-fx-background-color: #b8f1fc;">
+         <children>
+            <Button layoutX="134.0" layoutY="38.0" mnemonicParsing="false" onAction="#viewReport" prefHeight="26.0" prefWidth="210.0" text="View Report" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="126.0" layoutY="334.0" prefHeight="102.0" prefWidth="474.0" style="-fx-background-color: #b8f1fc;">
+         <children>
+            <Button layoutX="44.0" layoutY="16.0" mnemonicParsing="false" onAction="#inventoryOA" prefHeight="26.0" prefWidth="134.0" text="Inventory" />
+            <Button layoutX="255.0" layoutY="16.0" mnemonicParsing="false" onAction="#trainingOA" prefHeight="26.0" prefWidth="134.0" text="Training" />
+            <Button layoutX="129.0" layoutY="61.0" mnemonicParsing="false" onAction="#emergencyPreparednessOA" prefHeight="26.0" prefWidth="182.0" text="Emergency preparedness" />
+         </children>
+      </AnchorPane>
+      <Button layoutX="574.0" layoutY="479.0" mnemonicParsing="false" onAction="#logOutOA" prefHeight="26.0" prefWidth="72.0" text="Log Out" />
+   </children>
 </AnchorPane>

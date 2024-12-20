@@ -7,8 +7,7 @@
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane prefHeight="615.0" prefWidth="600.0" style="-fx-background-color: #cff7ff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagement.prisonmanagement.SessionActivites">
+<AnchorPane prefHeight="645.0" prefWidth="665.0" style="-fx-background-color: #cff7ff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagement.prisonmanagement.SessionActivites">
    <children>
       <Label layoutX="203.0" layoutY="31.0" style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Session Activities" />
       <TableView fx:id="activitiesTableView" layoutX="120.0" layoutY="115.0" prefHeight="178.0" prefWidth="346.0">
@@ -21,5 +20,6 @@
       <Button layoutX="375.0" layoutY="320.0" mnemonicParsing="false" onAction="#sessionBtn" text="Select Session" />
       <TextArea layoutX="103.0" layoutY="429.0" onDragDetected="#sessionTextArea" prefHeight="128.0" prefWidth="423.0" promptText="Session progress will show here...." />
       <Label layoutX="103.0" layoutY="393.0" text="Session Progress:" />
+      <Button layoutX="557.0" layoutY="584.0" mnemonicParsing="false" onAction="#backOA" prefHeight="26.0" prefWidth="60.0" text="Back" />
    </children>
 </AnchorPane>

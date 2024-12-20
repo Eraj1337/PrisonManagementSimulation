@@ -6,6 +6,8 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.input.MouseEvent;
 
+import java.io.IOException;
+
 public class SessionActivites {
 
     @FXML
@@ -30,4 +32,8 @@ public class SessionActivites {
 
     }
 
+    @FXML
+    public void backOA(ActionEvent actionEvent) throws IOException {
+        com.example.prison_management.SceneSwitcher.switchScene("Rehabiliation-Officer.fxml", actionEvent, "Home");
+    }
 }

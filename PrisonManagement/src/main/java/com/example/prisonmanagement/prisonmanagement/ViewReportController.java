@@ -6,18 +6,18 @@ import javafx.scene.control.TableView;
 
 import java.io.IOException;
 
-public class TrainingController {
+public class ViewReportController {
     @javafx.fxml.FXML
-    private TableColumn trainingSessionNameColumn;
+    private TableView reportTable;
     @javafx.fxml.FXML
-    private TableColumn trainingSessionTimeColumn;
+    private TableColumn detailsColumn;
     @javafx.fxml.FXML
-    private TableView TrainingTableView;
+    private TableColumn nameColumn;
     @javafx.fxml.FXML
-    private TableColumn trainingSessionEnrolledColumn;
+    private TableColumn idColumn;
 
-    @javafx.fxml.FXML
-    public void showTrainingSessionOA(ActionEvent actionEvent) {
+    @Deprecated
+    public void viewReportOA(ActionEvent actionEvent) {
     }
 
     @javafx.fxml.FXML
