@@ -5,6 +5,8 @@ import javafx.fxml.FXML;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 
+import java.io.IOException;
+
 public class Support {
 
     @FXML
@@ -20,7 +22,8 @@ public class Support {
     private ComboBox<?> treatmentFieldComboBox;
 
     @FXML
-    void backButton(ActionEvent event) {
+    void backButton(ActionEvent event) throws IOException {
+        SceneSwitcher.switchScene("OfficerDashBoard.fxml",event,"DashBoard");
 
     }
 

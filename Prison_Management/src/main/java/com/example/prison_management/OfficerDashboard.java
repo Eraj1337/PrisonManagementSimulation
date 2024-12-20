@@ -15,12 +15,14 @@ public class OfficerDashboard {
 
 
     @FXML
-    void emergencyResponsButtononclick(ActionEvent event) {
+    void emergencyResponsButtononclick(ActionEvent event)  throws IOException {
+        SceneSwitcher.switchScene("Emergency-Response.fxml",event,"viewEmergencyResponse");
 
     }
 
     @FXML
-    void healthMonitorButtononclick(ActionEvent event) {
+    void healthMonitorButtononclick(ActionEvent event)  throws IOException {
+        SceneSwitcher.switchScene("Health-Monitor.fxml",event,"viewHealthMonitor");
 
     }
 
@@ -30,7 +32,8 @@ public class OfficerDashboard {
     }
 
     @FXML
-    void treatmentButtononclick(ActionEvent event) {
+    void treatmentButtononclick(ActionEvent event)  throws IOException {
+        SceneSwitcher.switchScene("Treatment.fxml",event,"viewsTreatment");
 
     }
 

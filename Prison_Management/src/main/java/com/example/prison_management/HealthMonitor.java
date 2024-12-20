@@ -5,6 +5,8 @@ import javafx.scene.control.CheckBox;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 
+import java.io.IOException;
+
 public class HealthMonitor
 {
     @javafx.fxml.FXML
@@ -31,6 +33,8 @@ public class HealthMonitor
     }
 
     @javafx.fxml.FXML
-    public void backButton(ActionEvent actionEvent) {
+    public void backButton(ActionEvent actionEvent) throws IOException {
+        SceneSwitcher.switchScene("OfficerDashBoard.fxml", event,"DashBoard");
     }
+
 }

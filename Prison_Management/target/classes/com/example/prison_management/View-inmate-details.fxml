@@ -38,19 +38,19 @@
         <Label fx:id="lblFacilityName" layoutX="150" layoutY="480" />
         <Label fx:id="lblVisitingHours" layoutX="150" layoutY="510" />
       <Button layoutX="556.0" layoutY="437.0" mnemonicParsing="false" onAction="#backButton" prefHeight="26.0" prefWidth="68.0" text="Back" />
-      <TextField fx:id="nameTextf" layoutX="125.0" layoutY="113.0" />
-      <TextField layoutX="125.0" layoutY="147.0" />
+      <TextField fx:id="nameTextfield" layoutX="125.0" layoutY="113.0" />
+      <TextField fx:id="inmateIDTextField" layoutX="125.0" layoutY="147.0" />
       <RadioButton layoutX="108.0" layoutY="190.0" mnemonicParsing="false" selected="true" text="Male">
          <toggleGroup>
             <ToggleGroup fx:id="gender" />
          </toggleGroup></RadioButton>
       <RadioButton layoutX="210.0" layoutY="190.0" mnemonicParsing="false" selected="true" text="Female" toggleGroup="$gender" />
-      <TextField layoutX="108.0" layoutY="221.0" />
-      <TextField layoutX="135.0" layoutY="280.0" />
-      <TextField layoutX="135.0" layoutY="325.0" />
-      <TextField layoutX="172.0" layoutY="376.0" />
-      <TextField layoutX="156.0" layoutY="415.0" />
-      <TextField layoutX="148.0" layoutY="455.0" />
+      <TextField fx:id="ageTextField" layoutX="108.0" layoutY="221.0" />
+      <TextField fx:id="caseNumberTextField" layoutX="135.0" layoutY="280.0" />
+      <TextField fx:id="carDetails" layoutX="135.0" layoutY="325.0" />
+      <TextField fx:id="durationTextField" layoutX="172.0" layoutY="376.0" />
+      <TextField fx:id="timeServedTextField" layoutX="156.0" layoutY="415.0" />
+      <TextField fx:id="paroleEligibilityTextField" layoutX="148.0" layoutY="455.0" />
 
     </children>
 </AnchorPane>
