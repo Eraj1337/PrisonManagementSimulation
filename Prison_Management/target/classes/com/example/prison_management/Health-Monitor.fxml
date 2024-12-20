@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 <?import javafx.scene.control.TextField?>
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="536.0" prefWidth="753.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="536.0" prefWidth="753.0" fx:controller="com.example.prison_management.HealthMonitor" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Label layoutX="71.0" layoutY="51.0" prefHeight="18.0" prefWidth="133.0" />
       <Label layoutX="34.0" layoutY="199.0" prefHeight="18.0" prefWidth="140.0" text="ID:" />

@@ -5,6 +5,8 @@ import javafx.fxml.FXML;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 
+import java.io.IOException;
+
 public class ViewScheduledVisits {
 
     @FXML
@@ -20,7 +22,8 @@ public class ViewScheduledVisits {
     private TableColumn<?, ?> visitorinfocolumn;
 
     @FXML
-    void backButton(ActionEvent event) {
+    void backButton(ActionEvent event) throws IOException {
+        SceneSwitcher.switchScene("Visitor.fxml",event,"DashBoard");
 
     }
 

@@ -7,6 +7,8 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 
+import java.io.IOException;
+
 public class BookSchedule {
 
     @FXML
@@ -29,6 +31,12 @@ public class BookSchedule {
 
     @FXML
     private TableColumn<?, ?> visitorNameinfocolumn;
+
+    @FXML
+    void backOnAction(ActionEvent event) throws IOException {
+        SceneSwitcher.switchScene("Visitor.fxml",event,"DashBoard");
+
+    }
 
     @FXML
     void verifyandconfirmButton(ActionEvent event) {

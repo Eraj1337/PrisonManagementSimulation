@@ -1,40 +1,36 @@
+package com.example.prison_management;
+
 import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 
-public class HealthMonitor {
-
-    @FXML
-    private TextField agetextfield;
-
-    @FXML
-    private CheckBox femaleCheckBox;
-
-    @FXML
-    private ComboBox<?> healthCheckComboBox;
-
-    @FXML
-    private ComboBox<?> healthRecordComboBox;
-
-    @FXML
+public class HealthMonitor
+{
+    @javafx.fxml.FXML
     private TextField idtextfield;
-
-    @FXML
-    private CheckBox maleCheckBox;
-
-    @FXML
+    @javafx.fxml.FXML
+    private CheckBox femaleCheckBox;
+    @javafx.fxml.FXML
+    private ComboBox healthCheckComboBox;
+    @javafx.fxml.FXML
     private TextField nametextfield;
+    @javafx.fxml.FXML
+    private CheckBox maleCheckBox;
+    @javafx.fxml.FXML
+    private TextField agetextfield;
+    @javafx.fxml.FXML
+    private ComboBox healthRecordComboBox;
 
-    @FXML
-    void backButton(ActionEvent event) {
-
+    @javafx.fxml.FXML
+    public void initialize() {
     }
 
-    @FXML
-    void logoutOnActionButton(ActionEvent event) {
-
+    @javafx.fxml.FXML
+    public void logoutOnActionButton(ActionEvent actionEvent) {
     }
 
+    @javafx.fxml.FXML
+    public void backButton(ActionEvent actionEvent) {
+    }
 }

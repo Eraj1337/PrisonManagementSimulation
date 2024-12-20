@@ -4,6 +4,8 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
+import java.io.IOException;
+
 public class ViewInmateDetails {
 
     @FXML
@@ -43,7 +45,8 @@ public class ViewInmateDetails {
     private Label lblVisitingHours;
 
     @FXML
-    void backButton(ActionEvent event) {
+    void backButton(ActionEvent event) throws IOException {
+        SceneSwitcher.switchScene("Visitor.fxml",event,"DashBoard");
 
     }
 

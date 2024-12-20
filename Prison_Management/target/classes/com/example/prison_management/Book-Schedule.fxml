@@ -8,7 +8,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane fx:id="dateDatePicker" prefHeight="691.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prison_management.BookSchedule">
+<AnchorPane prefHeight="691.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prison_management.BookSchedule">
    <children>
       <Label layoutX="38.0" layoutY="194.0" prefHeight="18.0" prefWidth="58.0" text="Time :" />
       <Label layoutX="38.0" layoutY="244.0" text="Date :" />
@@ -24,7 +24,7 @@
             <TableColumn fx:id="dateinfocolumn" prefWidth="255.19989013671875" text="Date" />
         </columns>
       </TableView>
-      <Button layoutX="724.0" layoutY="645.0" mnemonicParsing="false" text="Back" />
+      <Button layoutX="724.0" layoutY="645.0" mnemonicParsing="false" onAction="#backOnAction" text="Back" />
       <Label layoutX="319.0" layoutY="36.0" style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Book Schedule" />
    </children>
 </AnchorPane>
