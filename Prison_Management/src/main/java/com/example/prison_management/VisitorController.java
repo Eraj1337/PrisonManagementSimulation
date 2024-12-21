@@ -15,7 +15,8 @@ public class VisitorController {
     }
 
     @FXML
-    void feedbackButton(ActionEvent event) {
+    void feedbackButton(ActionEvent event) throws IOException {
+        SceneSwitcher.switchScene("Feedback.fxml",event,"viewFeedback");
 
     }
 
