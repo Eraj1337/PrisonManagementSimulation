@@ -48,7 +48,7 @@
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="528.0" layoutY="354.0" mnemonicParsing="false" onAction="#securitybacklabel" text="Back" />
+      <Button layoutX="528.0" layoutY="354.0" mnemonicParsing="false" onAction="#securitybacklabel" text="Logout" />
       <Label fx:id="securitymanagerwelcomelabel" layoutX="149.0" layoutY="33.0" text="Welcome, Security Manager!">
          <font>
             <Font size="24.0" />

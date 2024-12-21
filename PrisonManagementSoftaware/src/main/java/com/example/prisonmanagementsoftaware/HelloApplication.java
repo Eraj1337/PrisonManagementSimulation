@@ -17,6 +17,11 @@ public class HelloApplication extends Application {
         stage.show();
     }
 
+    @Override
+    public String toString() {
+        return "HelloApplication{}";
+    }
+
     public static void main(String[] args) {
         launch();
     }

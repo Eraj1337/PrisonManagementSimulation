@@ -7,7 +7,6 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane fx:id="smsevenpage" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmanagementsoftaware.FoodManagerSixthGoal">
    <children>
       <Label layoutX="62.0" layoutY="81.0" text="Current inventory status" />
@@ -25,6 +24,7 @@
       <TextField fx:id="iteminput" layoutX="449.0" layoutY="155.0" />
       <TextField fx:id="quantityinput" layoutX="443.0" layoutY="196.0" />
       <TextField fx:id="supplierinput" layoutX="443.0" layoutY="236.0" />
-      <Button layoutX="459.0" layoutY="289.0" mnemonicParsing="false" onAction="#smsevenaddbutton" text="Add" />
+      <Button layoutX="459.0" layoutY="289.0" mnemonicParsing="false" onAction="#fmsixaddbutton" text="Add" />
+      <Button layoutX="458.0" layoutY="333.0" mnemonicParsing="false" onAction="#fmsixback" text="Back" />
    </children>
 </AnchorPane>
